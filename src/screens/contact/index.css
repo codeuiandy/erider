@@ -1,0 +1,135 @@
+.contactP {
+  margin-top: 90px;
+  /* margin-bottom: 200px; */
+  padding-bottom: 50px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.ontactPcol-1 {
+  width: 50%;
+}
+
+.headerContact h2 {
+  display: flex;
+  font-size: 40px;
+}
+
+.headerContact h2 span:first-child {
+  color: #0087ff;
+  margin-right: 15px;
+}
+
+.headerContact h2 span:last-child {
+  color: #ffaf21;
+}
+
+.headerContact div {
+  background-color: #0087ff;
+  height: 8px;
+  width: 70px;
+}
+
+.headerContact p {
+  color: #59636b;
+  font-weight: bold;
+  margin-top: 25px;
+  font-size: 16px;
+}
+
+.headerContact2Child1 {
+  position: relative;
+  width: 240px;
+  height: 160px;
+  background-color: white;
+  margin-top: 20px;
+  border-radius: 5px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding-top: 30px;
+}
+
+.un2 .headerContact2Child1 {
+  height: 90px;
+  padding-right: 50px;
+}
+
+.imgepo img {
+  position: absolute;
+  left: -20px;
+  top: 30%;
+  width: 40px;
+  height: 40px;
+}
+
+.headerContact2Child1 p {
+  margin-left: 30px;
+  color: #00101d;
+  font-size: 15px;
+}
+
+.un2 .headerContact2Child1 p {
+  margin-top: 7px;
+}
+
+.contactPcol-2 {
+  width: 40%;
+}
+
+.contactPcol-2 form {
+  width: 100%;
+  background-color: #fcfcfc;
+  padding: 30px;
+  border-radius: 8px;
+}
+
+.contactPcol-2 form .inputWrap {
+  width: 100%;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+
+.contactPcol-2 form .inputWrap input,
+textarea {
+  width: 100%;
+  height: 45px;
+  border: none;
+  outline: none;
+  background: #aaaaaa26;
+  border-radius: 5px;
+  margin-top: 8px;
+  padding-left: 10px;
+}
+
+.contactPcol-2 form .inputWrap textarea {
+  height: 100px;
+  padding-left: 10px;
+  padding-top: 10px;
+}
+
+.contactPcol-2 form .inputWrap label {
+  color: #00101d;
+  font-size: 15px;
+}
+
+.contactPcol-2 form button {
+  width: 100%;
+  height: 45px;
+  background-color: #0087ff;
+  border: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  border-radius: 5px;
+  font-size: 13px;
+  cursor: pointer;
+}
+
+.contactPcol-2 form button img {
+  width: 25px;
+  height: 25px;
+  margin-right: 10px;
+}

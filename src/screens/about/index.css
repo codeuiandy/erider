@@ -1,0 +1,160 @@
+.contactPbs {
+  margin-top: 80px;
+}
+.aboutCol1 {
+  display: flex;
+  justify-content: space-between;
+}
+
+.aboutCol1Col1 {
+  background-color: white;
+  width: 60%;
+  padding: 30px;
+}
+
+.aboutCol1Col1gf4 {
+  margin-top: 30px;
+}
+
+.aboutCol1Col1gf4 p {
+  color: #00101d;
+  margin-bottom: 20px;
+  line-height: 40px;
+  font-size: 15px;
+}
+
+.aboutCol1Col2 {
+  width: 30%;
+}
+
+.aboutCol1Col2 img {
+  width: 100%;
+}
+
+.ourMission {
+  display: flex;
+  height: 400px;
+}
+
+.ourMissionCol1 {
+  width: 35%;
+  height: 100%;
+}
+
+.ourMissionCol1 img {
+  width: 100%;
+  height: 100%;
+}
+
+.ourMission {
+  margin-top: 40px;
+}
+.ourMissionCol1 {
+  position: relative;
+  z-index: 3;
+}
+
+.ourMissionCol2 {
+  background-color: white;
+  margin-top: 30px;
+  position: relative;
+  left: -80px;
+  padding-left: 120px;
+  z-index: 2;
+  padding-top: 30px;
+  padding-bottom: 50px;
+  width: 65%;
+  padding-right: 40px;
+}
+
+.dhscontent h2 {
+  font-size: 27px;
+}
+
+.dhscontent div {
+  height: 8px;
+  width: 60px;
+  background-color: #0087ff;
+  margin-top: 5px;
+  margin-bottom: 30px;
+}
+
+.dhscontent21hg p {
+  color: #00101d;
+  margin-bottom: 16px;
+  line-height: 40px;
+  font-size: 15px;
+}
+
+.wwqwui {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.faqHead {
+  background-color: white;
+  width: 304px;
+  height: 113px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 40px;
+  flex-direction: column;
+}
+
+.faqHead h2 {
+  color: #ffaf21;
+}
+
+.faqHead div {
+  background-color: #ffaf21;
+  height: 10px;
+  width: 20px;
+}
+
+.faqSeaction {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  padding-bottom: 50px;
+  margin-top: 20px;
+}
+
+.faqSeactionMainOne {
+  width: 100%;
+}
+
+.comgusdghfcen {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.comgusdghfcen .comgusd {
+  width: 557px;
+  height: 162px;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.comgusdghfcen .comgusd div {
+  width: 90px;
+  height: 7px;
+  background-color: #0087ff;
+}
+
+.comgusd p {
+  color: #00101d;
+  font-size: 12px;
+  margin-top: 20px;
+}
+
+.comgusd a {
+  color: #0c5dff;
+  font-size: 12px;
+}
