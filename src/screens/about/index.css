@@ -130,6 +130,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  margin-bottom: 30px;
 }
 
 .comgusdghfcen .comgusd {
@@ -157,4 +158,36 @@
 .comgusd a {
   color: #0c5dff;
   font-size: 12px;
+}
+
+@media (max-width: 928px) {
+  .aboutCol1 {
+    flex-direction: column-reverse;
+  }
+
+  .aboutCol1Col1 {
+    width: 100%;
+  }
+
+  .aboutCol1Col2 {
+    display: none;
+  }
+
+  .ourMission {
+    height: fit-content;
+  }
+
+  .ourMissionCol1 {
+    display: none;
+  }
+
+  .ourMissionCol2 {
+    width: 100%;
+    position: relative;
+    left: 0;
+    padding-left: 20px;
+    margin-top: 0;
+    height: fit-content;
+    padding-bottom: 20px;
+  }
 }

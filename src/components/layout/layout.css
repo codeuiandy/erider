@@ -287,6 +287,27 @@ ul {
   cursor: pointer;
 }
 
+.mobileLinks button {
+  /* margin-right: 10px; */
+  border: none;
+  padding: 15px 30px;
+  border-radius: 5px;
+  cursor: pointer;
+  background-color: #0087ff;
+  color: white;
+  font-size: 13px;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.mobileLinks button svg {
+  margin-right: 20px;
+}
+
 @media (min-width: 829px) {
   .HideOnDesktop {
     display: none !important;
@@ -302,7 +323,7 @@ ul {
   }
   .mobileLinks {
     background-color: #edf6ff;
-    height: 300px;
+    height: 370px;
     width: calc(100vw - 10vw);
     /* overflow: hidden; */
     position: absolute;
@@ -313,7 +334,7 @@ ul {
     border-radius: 10px;
     -webkit-filter: drop-shadow(1px 5px 5px rgba(128, 128, 128, 0.336));
     filter: drop-shadow(1px 5px 5px rgba(128, 128, 128, 0.336));
-    margin-top: 32px;
+    margin-top: 10px;
   }
 
   .mobileLinks ul {
