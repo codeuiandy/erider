@@ -138,7 +138,7 @@ const Index = () => {
         </div>
       </div>
 
-      <div className="faqSeaction app-padding">
+      <div className="faqSeaction ">
         <div className="faqSeactionMainOne">
           <Accordion
             expanded={expanded === "panel1"}
